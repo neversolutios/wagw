@@ -1,0 +1,1 @@
+cmd.exe /c start C:\wa-gw\app\w-agent.exe 

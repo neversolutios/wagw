@@ -1,0 +1,1352 @@
+2015-11-10 15:26:56 10fc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2015-11-10 15:26:56 4348 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2015-11-10 15:26:56 4348 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-11-10 15:26:56 4348 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Memory barrier is not used
+2015-11-10 15:26:56 4348 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-11-10 15:26:56 4348 [Note] InnoDB: Not using CPU crc32 instructions
+2015-11-10 15:26:56 4348 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-11-10 15:26:56 4348 [Note] InnoDB: Completed initialization of buffer pool
+2015-11-10 15:26:56 4348 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-11-10 15:26:57 4348 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-11-10 15:26:57 4348 [Note] InnoDB: Waiting for purge to start
+2015-11-10 15:26:57 4348 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1835027
+2015-11-10 15:26:57 6140 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2015-11-10 15:26:57 4348 [Note] Plugin 'FEEDBACK' is disabled.
+2015-11-10 15:26:57 4348 [Note] Server socket created on IP: '::'.
+2015-11-10 15:26:57 4348 [Note] Event Scheduler: Loaded 0 events
+2015-11-10 15:26:57 4348 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2015-11-10 15:27:11 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+2015-11-10 15:27:11 5152 [Note] Event Scheduler: Purging the queue. 0 events
+2015-11-10 15:27:11 5732 [Note] InnoDB: FTS optimize thread exiting.
+2015-11-10 15:27:11 5152 [Note] InnoDB: Starting shutdown...
+2015-11-10 15:27:13 5152 [Note] InnoDB: Shutdown completed; log sequence number 1835037
+2015-11-10 15:27:13 5152 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-21 10:31:55 119c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-21 10:31:55 4508 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-21 10:31:55 4508 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-21 10:31:55 4508 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-21 10:31:55 4508 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-21 10:31:55 4508 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-21 10:31:55 4508 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-21 10:31:55 4508 [Note] InnoDB: Using generic crc32 instructions
+2020-06-21 10:31:55 4508 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-21 10:31:55 4508 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-21 10:31:55 4508 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-21 10:31:55 4508 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-21 10:31:55 4508 [Note] InnoDB: Waiting for purge to start
+2020-06-21 10:31:55 4508 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1835037
+2020-06-21 10:31:55 5416 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-21 10:31:55 4508 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-21 10:31:55 4508 [Note] Server socket created on IP: '::'.
+2020-06-21 10:31:55 4508 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-21 10:53:11 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-21 10:53:11 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-21 10:53:11 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-21 10:53:11 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-21 10:53:11 6284 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-21 10:53:11 6284 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-21 11:58:22 1cd0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-21 11:58:22 7376 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-21 11:58:22 7376 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-21 11:58:22 7376 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-21 11:58:22 7376 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-21 11:58:22 7376 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-21 11:58:22 7376 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-21 11:58:22 7376 [Note] InnoDB: Using generic crc32 instructions
+2020-06-21 11:58:22 7376 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-21 11:58:22 7376 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-21 11:58:22 7376 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-21 11:58:22 7376 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1849140 in the ib_logfiles!
+2020-06-21 11:58:22 7376 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-21 11:58:22 7376 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-21 11:58:22 7376 [Note] InnoDB: Waiting for purge to start
+2020-06-21 11:58:22 7376 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1849140
+2020-06-21 11:58:22 8108 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-21 11:58:22 7376 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-21 11:58:22 7376 [Note] Server socket created on IP: '::'.
+2020-06-21 11:58:22 7376 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-21 16:25:53 1580 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-21 16:25:53 5504 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-21 16:25:53 5504 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-21 16:25:53 5504 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-21 16:25:53 5504 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-21 16:25:53 5504 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-21 16:25:53 5504 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-21 16:25:53 5504 [Note] InnoDB: Using generic crc32 instructions
+2020-06-21 16:25:53 5504 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-21 16:25:53 5504 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-21 16:25:53 5504 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-21 16:25:53 5504 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1849150 in the ib_logfiles!
+2020-06-21 16:25:53 5504 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-21 16:25:53 5504 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-21 16:25:53 5504 [Note] InnoDB: Waiting for purge to start
+2020-06-21 16:25:53 5504 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1849150
+2020-06-21 16:25:53 6188 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-21 16:25:53 5504 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-21 16:25:53 5504 [Note] Server socket created on IP: '::'.
+2020-06-21 16:25:53 5504 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-21 16:55:45 6192 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-21 16:55:45 6192 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-21 17:19:58 2fb4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-21 17:19:58 12212 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-21 17:19:58 12212 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-21 17:19:58 12212 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-21 17:19:58 12212 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-21 17:19:58 12212 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-21 17:19:58 12212 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-21 17:19:58 12212 [Note] InnoDB: Using generic crc32 instructions
+2020-06-21 17:19:58 12212 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-21 17:19:58 12212 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-21 17:19:58 12212 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-21 17:19:58 12212 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1854646 in the ib_logfiles!
+2020-06-21 17:19:58 12212 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-21 17:19:59 12212 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:19:59 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:20:00 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:20:00 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:20:00 12212 [Note] InnoDB: Waiting for purge to start
+2020-06-21 17:20:00 12212 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1854646
+2020-06-21 17:20:02 12212 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-21 17:20:02 12212 [Note] Server socket created on IP: '::'.
+2020-06-21 17:20:02 12736 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-21 17:20:03 12212 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-21 18:17:41 1e4c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-21 18:17:41 7756 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-21 18:17:41 7756 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-21 18:17:41 7756 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-21 18:17:41 7756 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-21 18:17:41 7756 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-21 18:17:41 7756 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-21 18:17:41 7756 [Note] InnoDB: Using generic crc32 instructions
+2020-06-21 18:17:41 7756 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-21 18:17:41 7756 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-21 18:17:41 7756 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-21 18:17:41 7756 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1861043 in the ib_logfiles!
+2020-06-21 18:17:41 7756 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-21 18:17:41 7756 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-21 18:17:41 7756 [Note] InnoDB: Waiting for purge to start
+2020-06-21 18:17:41 7756 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1861043
+2020-06-21 18:17:41 3172 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-21 18:17:41 7756 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-21 18:17:41 7756 [Note] Server socket created on IP: '::'.
+2020-06-21 18:17:41 7756 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-21 20:21:01 11888 [Warning] Host name 'zg-0428c-297.stretchoid.com' could not be resolved: No such host is known. 
+2020-06-21 20:47:01 11888 [Warning] IP address '112.3.28.155' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2020-06-22  2:22:07 11480 [Warning] Hostname 'c5486.rederatural.com' does not resolve to '104.140.188.46'.
+2020-06-22  2:22:07 11480 [Note] Hostname 'c5486.rederatural.com' has the following IP addresses:
+2020-06-22  2:22:07 11480 [Note]  - 212.32.237.92
+2020-06-22  8:16:44 8704 [Warning] Host name 'zg-0428c-504.stretchoid.com' could not be resolved: No such host is known. 
+2020-06-22  9:49:17 2308 [Warning] IP address '61.147.103.174' could not be resolved: No such host is known. 
+2020-06-22 13:02:54 2308 [Warning] IP address '83.97.20.31' has been resolved to the host name '31.20.97.83.ro.ovo.sc', which resembles IPv4-address itself.
+2020-06-22 18:10:21 2308 [Warning] IP address '120.55.13.109' could not be resolved: No such host is known. 
+2020-06-22 22:50:10 2308 [Warning] IP address '39.107.14.208' could not be resolved: No such host is known. 
+2020-06-24 16:57:46 1184 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-24 16:57:46 4484 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-24 16:57:46 4484 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-24 16:57:46 4484 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-24 16:57:46 4484 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-24 16:57:46 4484 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-24 16:57:46 4484 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-24 16:57:46 4484 [Note] InnoDB: Using generic crc32 instructions
+2020-06-24 16:57:46 4484 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-24 16:57:46 4484 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-24 16:57:46 4484 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-24 16:57:46 4484 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 1912867 in the ib_logfiles!
+2020-06-24 16:57:46 4484 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-24 16:57:47 4484 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-24 16:57:47 4484 [Note] InnoDB: Waiting for purge to start
+2020-06-24 16:57:47 4484 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1912867
+2020-06-24 16:57:47 2204 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-24 16:57:47 4484 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-24 16:57:47 4484 [Note] Server socket created on IP: '::'.
+2020-06-24 16:57:47 4484 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:36 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:37 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-24 23:26:37 3444 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-26 08:59:05 cc8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-26  8:59:05 3272 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-26  8:59:05 3272 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-26  8:59:05 3272 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-26  8:59:05 3272 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-26  8:59:05 3272 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-26  8:59:05 3272 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-26  8:59:05 3272 [Note] InnoDB: Using generic crc32 instructions
+2020-06-26  8:59:05 3272 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-26  8:59:05 3272 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-26  8:59:05 3272 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-26  8:59:05 3272 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2025938 in the ib_logfiles!
+2020-06-26  8:59:05 3272 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-26  8:59:06 3272 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-26  8:59:06 3272 [Note] InnoDB: Waiting for purge to start
+2020-06-26  8:59:06 3272 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2025938
+2020-06-26  8:59:06 6324 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-26  8:59:06 3272 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-26  8:59:06 3272 [Note] Server socket created on IP: '::'.
+2020-06-26  8:59:06 3272 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-28 17:02:56 1b00 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-28 17:02:56 6912 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-28 17:02:56 6912 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-28 17:02:56 6912 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-28 17:02:56 6912 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-28 17:02:56 6912 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-28 17:02:56 6912 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-28 17:02:56 6912 [Note] InnoDB: Using generic crc32 instructions
+2020-06-28 17:02:56 6912 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-28 17:02:56 6912 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-28 17:02:56 6912 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-28 17:02:56 6912 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2025948 in the ib_logfiles!
+2020-06-28 17:02:56 6912 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-28 17:02:56 6912 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-28 17:02:56 6912 [Note] InnoDB: Waiting for purge to start
+2020-06-28 17:02:57 6912 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2025948
+2020-06-28 17:02:57 4428 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-28 17:02:57 6912 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-28 17:02:57 6912 [Note] Server socket created on IP: '::'.
+2020-06-28 17:02:57 6912 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-29 10:31:22 c54 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-29 10:31:22 3156 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-29 10:31:22 3156 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-29 10:31:22 3156 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-29 10:31:22 3156 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-29 10:31:22 3156 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-29 10:31:22 3156 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-29 10:31:22 3156 [Note] InnoDB: Using generic crc32 instructions
+2020-06-29 10:31:22 3156 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-29 10:31:22 3156 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-29 10:31:22 3156 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-29 10:31:22 3156 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 2025958 in the ib_logfiles!
+2020-06-29 10:31:22 3156 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-06-29 10:31:22 3156 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-29 10:31:22 3156 [Note] InnoDB: Waiting for purge to start
+2020-06-29 10:31:22 3156 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2025958
+2020-06-29 10:31:23 2992 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-29 10:31:23 3156 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-29 10:31:23 3156 [Note] Server socket created on IP: '::'.
+2020-06-29 10:31:23 3156 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-29 14:54:03 3128 [Warning] IP address '47.94.52.159' could not be resolved: No such host is known. 
+2020-06-29 19:43:04 3128 [Warning] Host name 'zg-0626a-265.stretchoid.com' could not be resolved: No such host is known. 
+2020-06-29 20:20:32 3128 [Warning] Host name 'hn.kd.ny.adsl' could not be resolved: No such host is known. 
+2020-06-29 23:54:45 3128 [Warning] Host name 'zg-0626a-244.stretchoid.com' could not be resolved: No such host is known. 
+2020-06-29 23:56:53 3368 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2020-06-29 23:56:53 3368 [Note] Event Scheduler: Purging the queue. 0 events
+2020-06-29 23:56:53 3888 [Note] InnoDB: FTS optimize thread exiting.
+2020-06-29 23:56:53 3368 [Note] InnoDB: Starting shutdown...
+2020-06-29 23:56:54 3368 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2020-06-29 23:56:55 3368 [Note] InnoDB: Shutdown completed; log sequence number 2115911
+2020-06-29 23:56:55 3368 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2020-06-30 17:25:48 1094 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-06-30 17:25:48 4244 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-06-30 17:25:48 4244 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-06-30 17:25:48 4244 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-06-30 17:25:48 4244 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-06-30 17:25:48 4244 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-06-30 17:25:48 4244 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-06-30 17:25:48 4244 [Note] InnoDB: Using generic crc32 instructions
+2020-06-30 17:25:48 4244 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-06-30 17:25:48 4244 [Note] InnoDB: Completed initialization of buffer pool
+2020-06-30 17:25:48 4244 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-06-30 17:25:49 4244 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-06-30 17:25:49 4244 [Note] InnoDB: Waiting for purge to start
+2020-06-30 17:25:49 4244 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2115911
+2020-06-30 17:25:49 4388 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-06-30 17:25:49 4244 [Note] Plugin 'FEEDBACK' is disabled.
+2020-06-30 17:25:49 4244 [Note] Server socket created on IP: '::'.
+2020-06-30 17:25:49 4244 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-06-30 17:26:50 4400 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-07-20 22:55:20 a20 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-07-20 22:55:20 2592 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-07-20 22:55:20 2592 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-07-20 22:55:20 2592 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-07-20 22:55:20 2592 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-07-20 22:55:20 2592 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-07-20 22:55:20 2592 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-07-20 22:55:20 2592 [Note] InnoDB: Using generic crc32 instructions
+2020-07-20 22:55:20 2592 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-07-20 22:55:20 2592 [Note] InnoDB: Completed initialization of buffer pool
+2020-07-20 22:55:20 2592 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-07-20 22:55:20 2592 [Note] InnoDB: The log sequence number 2115911 in ibdata file do not match the log sequence number 2152632 in the ib_logfiles!
+2020-07-20 22:55:20 2592 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-07-20 22:55:21 2592 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-07-20 22:55:21 2592 [Note] InnoDB: Waiting for purge to start
+2020-07-20 22:55:21 2592 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2152632
+2020-07-20 22:55:21 5444 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-07-20 22:55:21 2592 [Note] Plugin 'FEEDBACK' is disabled.
+2020-07-20 22:55:21 2592 [Note] Server socket created on IP: '::'.
+2020-07-20 22:55:21 2592 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-07-20 23:00:10 3416 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2020-07-20 23:00:10 3416 [Note] Event Scheduler: Purging the queue. 0 events
+2020-07-20 23:00:10 5332 [Note] InnoDB: FTS optimize thread exiting.
+2020-07-20 23:00:10 3416 [Note] InnoDB: Starting shutdown...
+2020-07-20 23:00:10 3416 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2020-07-20 23:00:12 3416 [Note] InnoDB: Shutdown completed; log sequence number 2152642
+2020-07-20 23:00:12 3416 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2020-08-12 09:54:54 2448 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-08-12  9:54:54 9288 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-08-12  9:54:54 9288 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-08-12  9:54:54 9288 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-08-12  9:54:54 9288 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-08-12  9:54:54 9288 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-08-12  9:54:54 9288 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-08-12  9:54:54 9288 [Note] InnoDB: Using generic crc32 instructions
+2020-08-12  9:54:54 9288 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-08-12  9:54:54 9288 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-12  9:54:54 9288 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-08-12  9:54:54 9288 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-08-12  9:54:54 9288 [Note] InnoDB: Waiting for purge to start
+2020-08-12  9:54:55 9288 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2152642
+2020-08-12  9:54:55 3008 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-08-12  9:54:55 9288 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-12  9:54:55 9288 [Note] Server socket created on IP: '::'.
+2020-08-12  9:54:55 9288 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-08-12 11:17:38 1050 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-08-12 11:17:38 4176 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-08-12 11:17:38 4176 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-08-12 11:17:38 4176 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-08-12 11:17:38 4176 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-08-12 11:17:38 4176 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-08-12 11:17:38 4176 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-08-12 11:17:38 4176 [Note] InnoDB: Using generic crc32 instructions
+2020-08-12 11:17:38 4176 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-08-12 11:17:38 4176 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-12 11:17:38 4176 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-08-12 11:17:38 4176 [Note] InnoDB: The log sequence number 2152642 in ibdata file do not match the log sequence number 2157339 in the ib_logfiles!
+2020-08-12 11:17:38 4176 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-08-12 11:17:39 4176 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-08-12 11:17:39 4176 [Note] InnoDB: Waiting for purge to start
+2020-08-12 11:17:39 4176 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2157339
+2020-08-12 11:17:39 6548 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-08-12 11:17:39 4176 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-12 11:17:39 4176 [Note] Server socket created on IP: '::'.
+2020-08-12 11:17:39 4176 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-08-12 11:20:32 23f4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-08-12 11:20:32 9204 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-08-12 11:20:32 9204 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-08-12 11:20:32 9204 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-08-12 11:20:32 9204 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-08-12 11:20:32 9204 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-08-12 11:20:32 9204 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-08-12 11:20:32 9204 [Note] InnoDB: Using generic crc32 instructions
+2020-08-12 11:20:32 9204 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-08-12 11:20:32 9204 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-12 11:20:32 9204 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-08-12 11:20:32 9204 [Note] InnoDB: The log sequence number 2152642 in ibdata file do not match the log sequence number 2157349 in the ib_logfiles!
+2020-08-12 11:20:32 9204 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-08-12 11:20:32 9204 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-08-12 11:20:32 9204 [Note] InnoDB: Waiting for purge to start
+2020-08-12 11:20:32 9204 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2157349
+2020-08-12 11:20:32 7032 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-08-12 11:20:32 9204 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-12 11:20:32 9204 [Note] Server socket created on IP: '::'.
+2020-08-12 11:20:32 9204 [ERROR] mysqld.exe: Table '.\mysql\user' is marked as crashed and should be repaired
+2020-08-12 11:20:32 9204 [Warning] Checking table:   '.\mysql\user'
+2020-08-12 11:20:32 9204 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2020-08-12 11:20:32 9204 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-08-12 11:54:49 6660 [Warning] IP address '198.199.98.246' could not be resolved: No such host is known. 
+2020-08-12 11:55:19 6660 [Warning] IP address '36.66.119.233' could not be resolved: No such host is known. 
+2020-08-12 13:18:51 1152 [Warning] Hostname 'worker-15.sfj.censys-scanner.com' does not resolve to '192.35.168.251'.
+2020-08-12 13:18:51 1152 [Note] Hostname 'worker-15.sfj.censys-scanner.com' has the following IP addresses:
+2020-08-12 13:18:51 1152 [Note]  - 192.35.168.240
+2020-08-12 14:46:17 1152 [Warning] Hostname 'server-185-153-199-132.cloudedic.net' does not resolve to '185.153.199.132'.
+2020-08-12 14:46:17 1152 [Note] Hostname 'server-185-153-199-132.cloudedic.net' has the following IP addresses:
+2020-08-12 14:46:17 1152 [Note]  - 185.153.198.99
+2020-08-12 15:33:37 1152 [Warning] IP address '170.130.187.46' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2020-08-12 15:41:46 1152 [Warning] IP address '36.99.113.62' could not be resolved: No such host is known. 
+2020-08-12 20:17:34 1844 [Warning] IP address '38.88.252.187' could not be resolved: No such host is known. 
+2020-08-13  0:11:14 4436 [Warning] IP address '20.185.236.55' could not be resolved: No such host is known. 
+2020-08-13 13:24:09 696 [Warning] IP address '83.97.20.21' has been resolved to the host name '21.20.97.83.ro.ovo.sc', which resembles IPv4-address itself.
+2020-08-13 15:07:12 696 [Warning] Host name '78-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2020-08-13 15:10:36 696 [Warning] IP address '52.142.4.200' could not be resolved: No such host is known. 
+2020-08-14 13:18:03 1d84 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-08-14 13:18:03 7556 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-08-14 13:18:03 7556 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-08-14 13:18:03 7556 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-08-14 13:18:03 7556 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-08-14 13:18:03 7556 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-08-14 13:18:03 7556 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-08-14 13:18:03 7556 [Note] InnoDB: Using generic crc32 instructions
+2020-08-14 13:18:03 7556 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-08-14 13:18:03 7556 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-14 13:18:03 7556 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-08-14 13:18:03 7556 [Note] InnoDB: The log sequence number 2152642 in ibdata file do not match the log sequence number 2906524 in the ib_logfiles!
+2020-08-14 13:18:04 7556 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2020-08-14 13:18:04 7556 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-08-14 13:18:04 7556 [Note] InnoDB: Waiting for purge to start
+2020-08-14 13:18:04 7556 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 2906524
+2020-08-14 13:18:04 6632 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-08-14 13:18:05 7556 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-14 13:18:05 7556 [Note] Server socket created on IP: '::'.
+2020-08-14 13:18:05 7556 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2020-08-14 13:18:05 7556 [Warning] Checking table:   '.\mysql\db'
+2020-08-14 13:18:05 7556 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2020-08-14 13:18:05 7556 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-08-14 15:12:43 5716 [Warning] IP address '104.140.188.22' has been resolved to the host name '732659.rederatural.com', which resembles IPv4-address itself.
+2020-08-14 15:48:23 2492 [Warning] IP address '193.29.13.89' could not be resolved: No such host is known. 
+2020-08-14 17:54:43 7456 [Warning] Hostname 'internettl.org' does not resolve to '104.152.52.29'.
+2020-08-14 17:54:43 7456 [Note] Hostname 'internettl.org' has the following IP addresses:
+2020-08-14 17:54:43 7456 [Note]  - 162.255.119.131
+2020-08-14 19:38:27 5204 [Warning] Host name 'zg-0708b-125.stretchoid.com' could not be resolved: No such host is known. 
+2020-08-14 20:02:59 10896 [Warning] IP address '38.88.252.187' could not be resolved: No such host is known. 
+2020-08-14 20:23:46 8432 [Warning] IP address '164.52.24.170' could not be resolved: No such host is known. 
+2020-08-14 20:23:46 2340 [Warning] IP address '164.52.24.170' could not be resolved: No such host is known. 
+2020-08-14 20:23:46 10532 [Warning] IP address '164.52.24.170' could not be resolved: No such host is known. 
+2020-08-14 20:23:46 4244 [Warning] IP address '164.52.24.170' could not be resolved: No such host is known. 
+2020-08-14 21:04:38 9472 [Warning] IP address '80.82.78.85' could not be resolved: No such host is known. 
+2020-08-14 21:12:41 9292 [Warning] IP address '118.193.28.58' could not be resolved: No such host is known. 
+2020-08-14 23:11:59 3592 [Warning] IP address '83.97.20.21' has been resolved to the host name '21.20.97.83.ro.ovo.sc', which resembles IPv4-address itself.
+2020-08-15 10:25:29 10060 [Warning] IP address '222.89.70.216' could not be resolved: No such host is known. 
+2020-08-15 12:24:28 10060 [Warning] Hostname 'editor.census.shodan.io' does not resolve to '157.245.164.170'.
+2020-08-15 12:24:28 10060 [Note] Hostname 'editor.census.shodan.io' has the following IP addresses:
+2020-08-15 12:24:28 10060 [Note]  - 216.117.2.180
+2020-08-15 15:25:34 10060 [Warning] IP address '170.130.187.30' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2020-08-15 17:38:10 10696 [Warning] IP address '71.6.232.5' could not be resolved: No such host is known. 
+2020-08-15 17:45:52 10696 [Warning] Host name 'ubuntu14167124.aspadmin.net' could not be resolved: No such host is known. 
+2020-08-16  3:55:03 8760 [Warning] Hostname 'wall.census.shodan.io' does not resolve to '66.240.219.133'.
+2020-08-16  3:55:03 8760 [Note] Hostname 'wall.census.shodan.io' has the following IP addresses:
+2020-08-16  3:55:03 8760 [Note]  - 216.117.2.180
+2020-08-16  7:15:06 8548 [Warning] IP address '83.97.20.21' has been resolved to the host name '21.20.97.83.ro.ovo.sc', which resembles IPv4-address itself.
+2020-08-16  7:21:44 13036 [Warning] Hostname 'worker-15.sfj.censys-scanner.com' does not resolve to '192.35.168.249'.
+2020-08-16  7:21:44 13036 [Note] Hostname 'worker-15.sfj.censys-scanner.com' has the following IP addresses:
+2020-08-16  7:21:44 13036 [Note]  - 192.35.168.240
+2020-08-16 11:17:34 8968 [Warning] IP address '85.93.20.170' could not be resolved: No such host is known. 
+2020-08-16 11:51:27 12696 [Warning] Hostname 'server-185-153-199-132.cloudedic.net' does not resolve to '185.153.199.132'.
+2020-08-16 11:51:27 12696 [Note] Hostname 'server-185-153-199-132.cloudedic.net' has the following IP addresses:
+2020-08-16 11:51:27 12696 [Note]  - 185.153.198.99
+2020-08-16 17:47:39 1604 [Warning] Host name '10-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2020-08-16 20:57:19 444 [Warning] IP address '84.38.185.29' could not be resolved: No such host is known. 
+2020-08-17  0:32:15 3076 [Warning] IP address '183.136.225.44' could not be resolved: No such host is known. 
+2020-08-17  8:43:54 4376 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2020-08-17  8:43:54 4376 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-17  8:43:54 6536 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-17  8:43:54 4376 [Note] InnoDB: Starting shutdown...
+2020-08-17  8:43:55 4376 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2020-08-17  8:43:56 4376 [Note] InnoDB: Shutdown completed; log sequence number 3227269
+2020-08-17  8:43:56 4376 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2020-08-17 08:44:07 2308 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2020-08-17  8:44:07 8968 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2020-08-17  8:44:07 8968 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2020-08-17  8:44:07 8968 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-08-17  8:44:07 8968 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-08-17  8:44:07 8968 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-08-17  8:44:07 8968 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-08-17  8:44:07 8968 [Note] InnoDB: Using generic crc32 instructions
+2020-08-17  8:44:07 8968 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2020-08-17  8:44:07 8968 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-17  8:44:07 8968 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-08-17  8:44:07 8968 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-08-17  8:44:07 8968 [Note] InnoDB: Waiting for purge to start
+2020-08-17  8:44:07 8968 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 3227269
+2020-08-17  8:44:07 3828 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2020-08-17  8:44:07 8968 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-17  8:44:07 8968 [Note] Server socket created on IP: '::'.
+2020-08-17  8:44:08 8968 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-08-17  8:44:49 7076 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2020-08-17  8:44:49 7076 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2020-08-17  8:46:13 6392 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2020-08-17  8:46:13 6392 [Note] Event Scheduler: Purging the queue. 0 events
+2020-08-17  8:46:13 5204 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-17  8:46:13 6392 [Note] InnoDB: Starting shutdown...
+2020-08-17  8:46:15 6392 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2020-08-17  8:46:16 6392 [Note] InnoDB: Shutdown completed; log sequence number 3302752
+2020-08-17  8:46:16 6392 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2021-02-09 19:52:56 2a8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-02-09 19:52:56 680 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-02-09 19:52:56 680 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-09 19:52:56 680 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-09 19:52:56 680 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-09 19:52:56 680 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-02-09 19:52:56 680 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-09 19:52:56 680 [Note] InnoDB: Using generic crc32 instructions
+2021-02-09 19:52:56 680 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-02-09 19:52:56 680 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-09 19:52:56 680 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-09 19:52:57 680 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-09 19:52:57 680 [Note] InnoDB: Waiting for purge to start
+2021-02-09 19:52:57 680 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 3302752
+2021-02-09 19:52:57 680 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-09 19:52:57 680 [Note] Server socket created on IP: '::'.
+2021-02-09 19:52:57 5848 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-09 19:52:57 680 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-02-09 20:42:09 5732 [Warning] IP address '211.95.79.180' could not be resolved: No such host is known. 
+2021-02-09 20:52:20 3836 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2021-02-09 20:52:20 3836 [Note] Event Scheduler: Purging the queue. 0 events
+2021-02-09 20:52:20 1504 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-09 20:52:20 3836 [Note] InnoDB: Starting shutdown...
+2021-02-09 20:52:21 3836 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-02-09 20:52:22 3836 [Note] InnoDB: Shutdown completed; log sequence number 5017990
+2021-02-09 20:52:22 3836 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2021-02-09 20:53:10 490 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-02-09 20:53:10 1168 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-02-09 20:53:10 1168 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-09 20:53:10 1168 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-09 20:53:10 1168 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-09 20:53:10 1168 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-02-09 20:53:10 1168 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-09 20:53:10 1168 [Note] InnoDB: Using generic crc32 instructions
+2021-02-09 20:53:10 1168 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-02-09 20:53:10 1168 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-09 20:53:10 1168 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-09 20:53:11 1168 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-09 20:53:11 1168 [Note] InnoDB: Waiting for purge to start
+2021-02-09 20:53:11 1168 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 5017990
+2021-02-09 20:53:11 1572 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-09 20:53:11 1168 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-09 20:53:11 1168 [Note] Server socket created on IP: '::'.
+2021-02-09 20:53:11 1168 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-02-09 22:03:19 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:20 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:20 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:20 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:20 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:20 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 4256 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:21 2492 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:22 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:03:22 3196 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-02-09 22:18:19 3196 [Warning] IP address '13.77.173.99' could not be resolved: No such host is known. 
+2021-02-10  4:41:57 3196 [Warning] IP address '185.143.221.241' could not be resolved: No such host is known. 
+2021-02-10  7:41:23 3196 [Warning] IP address '170.130.187.6' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-10  8:36:48 4324 [Warning] Hostname 'server-185-153-199-132.cloudedic.net' does not resolve to '185.153.199.132'.
+2021-02-10  8:36:48 4324 [Note] Hostname 'server-185-153-199-132.cloudedic.net' has the following IP addresses:
+2021-02-10  8:36:48 4324 [Note]  - 185.153.198.99
+2021-02-10 10:09:35 4324 [Warning] Host name 'zg-1218c-238.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-10 15:20:09 5508 [Warning] Host name 'zg-1218c-140.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-11  2:17:19 5508 [Warning] IP address '195.54.161.31' could not be resolved: No such host is known. 
+2021-02-11  2:37:15 1624 [Warning] IP address '180.163.86.208' could not be resolved: No such host is known. 
+2021-02-11  7:12:23 5240 [Warning] Host name '58-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-11 11:37:36 5240 [Warning] IP address '185.167.97.31' could not be resolved: No such host is known. 
+2021-02-11 12:21:03 5240 [Warning] Host name 'zg-1218a-259.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-11 20:06:59 5240 [Warning] Host name 'zg-1218a-297.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-11 21:49:04 4324 [Warning] Host name 'ip-112-18.4vendeta.com' could not be resolved: No such host is known. 
+2021-02-12  6:47:38 5508 [Warning] IP address '106.13.5.206' could not be resolved: No such host is known. 
+2021-02-12  8:10:11 5508 [Warning] Hostname '428bb.rederatural.com' does not resolve to '104.140.188.14'.
+2021-02-12  8:10:11 5508 [Note] Hostname '428bb.rederatural.com' has the following IP addresses:
+2021-02-12  8:10:11 5508 [Note]  - 23.82.12.29
+2021-02-12 12:12:04 4324 [Warning] IP address '165.22.112.203' could not be resolved: No such host is known. 
+2021-02-12 12:55:10 5240 [Warning] Host name 'zg-1218a-140.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-12 21:01:04 5508 [Warning] Hostname 'internettl.org' does not resolve to '104.152.52.22'.
+2021-02-12 21:01:04 5508 [Note] Hostname 'internettl.org' has the following IP addresses:
+2021-02-12 21:01:04 5508 [Note]  - 162.255.119.131
+2021-02-12 21:13:36 5496 [Warning] Hostname 'security.criminalip.com' does not resolve to '89.248.169.12'.
+2021-02-12 21:13:36 5496 [Note] Hostname 'security.criminalip.com' has the following IP addresses:
+2021-02-12 21:13:36 5496 [Note]  - 15.164.5.209
+2021-02-12 21:22:35 5240 [Warning] IP address '35.187.190.226' has been resolved to the host name '226.190.187.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-12 21:22:35 5240 [Warning] IP address '35.187.190.226' has been resolved to the host name '226.190.187.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-13  4:54:32 5412 [Warning] IP address '223.72.104.53' could not be resolved: No such host is known. 
+2021-02-13  8:48:55 5240 [Warning] Host name '30-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-13 13:06:25 3732 [Warning] Host name 'zg-1218c-286.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-13 18:55:29 3732 [Warning] Host name 'WIN-1IINS0343VR' could not be resolved: No such host is known. 
+2021-02-13 20:12:27 5240 [Warning] IP address '27.115.124.100' could not be resolved: No such host is known. 
+2021-02-13 20:12:27 5412 [Warning] IP address '27.115.124.75' could not be resolved: No such host is known. 
+2021-02-13 20:12:32 5412 [Warning] IP address '27.115.124.74' could not be resolved: No such host is known. 
+2021-02-14  5:27:21 5412 [Warning] IP address '20.198.209.0' could not be resolved: No such host is known. 
+2021-02-14  5:29:05 5240 [Warning] IP address '20.195.56.109' could not be resolved: No such host is known. 
+2021-02-14  7:49:54 3732 [Warning] IP address '46.101.29.37' could not be resolved: No such host is known. 
+2021-02-14  8:44:40 5240 [Warning] Host name '50-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-14 11:04:23 5412 [Warning] Host name 'zg-1218a-172.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-14 11:24:16 3732 [Warning] Host name '217-221-188-170-static.albacom.net' could not be resolved: No such host is known. 
+2021-02-14 16:42:27 5412 [Warning] Host name 'kraken-2-0-3306-20000-nyc1-0.0.0.0-0' could not be resolved: No such host is known. 
+2021-02-14 18:43:51 5240 [Warning] Host name 'zg-1218c-155.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-14 22:54:55 5412 [Warning] IP address '87.251.70.87' could not be resolved: No such host is known. 
+2021-02-15  1:04:29 5412 [Warning] IP address '34.78.227.165' has been resolved to the host name '165.227.78.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-15  1:04:29 3732 [Warning] IP address '35.187.190.226' has been resolved to the host name '226.190.187.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-15  1:21:14 1636 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Normal shutdown
+2021-02-15  1:21:14 1636 [Note] Event Scheduler: Purging the queue. 0 events
+2021-02-15  1:21:14 1556 [Note] InnoDB: FTS optimize thread exiting.
+2021-02-15  1:21:14 1636 [Note] InnoDB: Starting shutdown...
+2021-02-15  1:21:16 1636 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-02-15  1:21:16 1636 [Note] InnoDB: Shutdown completed; log sequence number 355121301
+2021-02-15  1:21:16 1636 [Note] C:\wa-gw\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2021-02-15 03:13:53 b04 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-02-15  3:13:53 2820 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-02-15  3:13:53 2820 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-15  3:13:53 2820 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-15  3:13:53 2820 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-15  3:13:53 2820 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-02-15  3:13:53 2820 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-15  3:13:53 2820 [Note] InnoDB: Using generic crc32 instructions
+2021-02-15  3:13:53 2820 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-02-15  3:13:53 2820 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-15  3:13:53 2820 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-15  3:13:54 2820 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-15  3:13:54 2820 [Note] InnoDB: Waiting for purge to start
+2021-02-15  3:13:54 2820 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 355121301
+2021-02-15  3:13:54 3588 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-15  3:13:54 2820 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-15  3:13:54 2820 [Note] Server socket created on IP: '::'.
+2021-02-15  3:13:54 2820 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-02-15 04:05:45 1050 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-02-15  4:05:45 4176 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-02-15  4:05:45 4176 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-15  4:05:45 4176 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-15  4:05:45 4176 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-15  4:05:45 4176 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-02-15  4:05:45 4176 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-15  4:05:45 4176 [Note] InnoDB: Using generic crc32 instructions
+2021-02-15  4:05:45 4176 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-02-15  4:05:45 4176 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-15  4:05:46 4176 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-15  4:05:46 4176 [Note] InnoDB: Starting crash recovery from checkpoint LSN=355597347
+2021-02-15 04:05:46 1050  InnoDB: Operating system error number 5 in a file operation.
+InnoDB: The error means mysqld does not have the access rights to
+InnoDB: the directory. It may also be you have created a subdirectory
+InnoDB: of the same name as a data file.
+InnoDB: Error: could not open single-table tablespace file .\wagw\autorespon.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+210215  4:05:46 [ERROR] mysqld got exception 0x80000003 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+
+To report this bug, see https://mariadb.com/kb/en/reporting-bugs
+
+We will try our best to scrape up some info that will hopefully help
+diagnose the problem, but since we have already crashed, 
+something is definitely wrong and this may fail.
+
+Server version: 10.1.32-MariaDB
+key_buffer_size=16777216
+read_buffer_size=262144
+max_used_connections=0
+max_threads=1001
+thread_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 787129 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+mysqld.exe!my_parameter_handler()
+mysqld.exe!strxnmov()
+mysqld.exe!?free_frm_image@TABLE_SHARE@@QAEXPBE@Z()
+mysqld.exe!?free_frm_image@TABLE_SHARE@@QAEXPBE@Z()
+mysqld.exe!?free_frm_image@TABLE_SHARE@@QAEXPBE@Z()
+mysqld.exe!?free_frm_image@TABLE_SHARE@@QAEXPBE@Z()
+mysqld.exe!?compare_ulonglong@@YAHPB_K0@Z()
+mysqld.exe!?set_result_field@Item@@UAEXPAVField@@@Z()
+mysqld.exe!?ha_initialize_handlerton@@YAHPAUst_plugin_int@@@Z()
+mysqld.exe!?plugin_init@@YAHPAHPAPADH@Z()
+mysqld.exe!?plugin_init@@YAHPAHPAPADH@Z()
+mysqld.exe!?init_net_server_extension@@YAXPAVTHD@@@Z()
+mysqld.exe!?win_main@@YAHHPAPAD@Z()
+mysqld.exe!?mysql_service@@YAHPAX@Z()
+mysqld.exe!strxnmov()
+KERNEL32.DLL!BaseThreadInitThunk()
+ntdll.dll!RtlInitializeExceptionChain()
+ntdll.dll!RtlInitializeExceptionChain()
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2021-02-15 04:06:13 860 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-02-15  4:06:13 2144 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-02-15  4:06:14 2144 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-02-15  4:06:14 2144 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-02-15  4:06:14 2144 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-02-15  4:06:14 2144 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-02-15  4:06:14 2144 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-02-15  4:06:14 2144 [Note] InnoDB: Using generic crc32 instructions
+2021-02-15  4:06:14 2144 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-02-15  4:06:14 2144 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-15  4:06:14 2144 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-02-15  4:06:14 2144 [Note] InnoDB: Starting crash recovery from checkpoint LSN=355597347
+2021-02-15  4:06:14 2144 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-02-15  4:06:14 2144 [Note] InnoDB: Starting final batch to recover 3 pages from redo log
+2021-02-15  4:06:15 2144 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-02-15  4:06:15 2144 [Note] InnoDB: Waiting for purge to start
+2021-02-15  4:06:15 2144 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 355604613
+2021-02-15  4:06:15 2700 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-02-15  4:06:15 2144 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-15  4:06:15 2144 [Note] Server socket created on IP: '::'.
+2021-02-15  4:06:16 2144 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-02-15  4:30:00 604 [Warning] IP address '45.83.65.197' could not be resolved: No such host is known. 
+2021-02-15  5:13:14 3640 [Warning] IP address '34.78.120.99' has been resolved to the host name '99.120.78.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-15  5:13:14 1860 [Warning] IP address '34.78.120.99' has been resolved to the host name '99.120.78.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-15  9:18:56 4756 [Warning] Hostname '53c3b9.rederatural.com' does not resolve to '104.140.188.30'.
+2021-02-15  9:18:56 4756 [Note] Hostname '53c3b9.rederatural.com' has the following IP addresses:
+2021-02-15  9:18:56 4756 [Note]  - 23.82.12.31
+2021-02-15 13:18:57 5388 [Warning] IP address '121.42.144.76' could not be resolved: No such host is known. 
+2021-02-15 16:38:25 4476 [Warning] Host name 'zg-1218a-12.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-15 16:40:26 4476 [Warning] IP address '223.72.104.24' could not be resolved: No such host is known. 
+2021-02-15 19:56:05 3376 [Warning] IP address '185.167.98.154' could not be resolved: No such host is known. 
+2021-02-15 23:05:05 3376 [Warning] Host name 'zg-1218a-64.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-16  1:32:01 5928 [Warning] IP address '185.143.221.241' could not be resolved: No such host is known. 
+2021-02-16  7:14:30 3980 [Warning] Hostname 'c180bb.rederatural.com' does not resolve to '104.140.188.54'.
+2021-02-16  7:14:30 3980 [Note] Hostname 'c180bb.rederatural.com' has the following IP addresses:
+2021-02-16  7:14:30 3980 [Note]  - 212.32.237.90
+2021-02-16 12:34:22 5708 [Warning] IP address '193.29.13.96' could not be resolved: No such host is known. 
+2021-02-16 17:57:54 3944 [Warning] Hostname 'server-185-153-199-132.cloudedic.net' does not resolve to '185.153.199.132'.
+2021-02-16 17:57:54 3944 [Note] Hostname 'server-185-153-199-132.cloudedic.net' has the following IP addresses:
+2021-02-16 17:57:54 3944 [Note]  - 185.153.198.99
+2021-02-16 18:41:19 5304 [Warning] Host name 'zg-1218a-75.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-16 22:56:16 2732 [Warning] IP address '185.143.221.245' could not be resolved: No such host is known. 
+2021-02-16 23:43:06 2552 [Warning] IP address '8.135.29.101' could not be resolved: No such host is known. 
+2021-02-16 23:57:47 5304 [Warning] Host name 'zg-1218a-63.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-17  0:52:29 5304 [Warning] IP address '89.248.165.25' could not be resolved: No such host is known. 
+2021-02-17  8:08:03 6056 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:08 4604 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:11 5312 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:11 2752 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:18 5752 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:22 3632 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17  8:08:22 5312 [Warning] IP address '164.52.24.170' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-17 10:09:07 5924 [Warning] Hostname '428bb.rederatural.com' does not resolve to '104.140.188.14'.
+2021-02-17 10:09:07 5924 [Note] Hostname '428bb.rederatural.com' has the following IP addresses:
+2021-02-17 10:09:07 5924 [Note]  - 212.32.237.101
+2021-02-17 17:21:18 3740 [Warning] IP address '165.232.132.73' could not be resolved: No such host is known. 
+2021-02-17 18:27:59 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:27:59 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:27:59 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:27:59 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:27:59 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:00 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:01 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:02 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:03 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:04 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:05 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:06 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:07 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 3740 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:08 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 4512 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:09 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:10 5212 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:11 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:11 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:11 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:11 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 18:28:11 6040 [Warning] IP address '93.15.23.129' has been resolved to the host name '129.23.15.93.rev.sfr.net', which resembles IPv4-address itself.
+2021-02-17 19:36:04 5312 [Warning] IP address '117.50.7.159' could not be resolved: No such host is known. 
+2021-02-18  5:32:09 3440 [Warning] Host name 'zg-1218a-330.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-18  9:33:27 3980 [Warning] IP address '47.105.171.231' could not be resolved: No such host is known. 
+2021-02-18  9:35:40 6404 [Warning] Host name '74-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-18 15:05:01 7132 [Warning] IP address '82.196.15.9' could not be resolved: No such host is known. 
+2021-02-19  1:48:35 3452 [Warning] IP address '206.189.4.55' could not be resolved: No such host is known. 
+2021-02-19  5:09:45 7004 [Warning] IP address '52.172.143.124' could not be resolved: No such host is known. 
+2021-02-19  8:16:28 6468 [Warning] IP address '195.54.161.31' could not be resolved: No such host is known. 
+2021-02-19  9:10:22 6408 [Warning] IP address '170.130.187.14' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-19 12:56:38 6672 [Warning] Host name 'zg-1218a-265.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-19 13:40:32 3220 [Warning] Host name 'zg-1218a-196.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-19 15:14:39 3880 [Warning] IP address '35.189.239.66' has been resolved to the host name '66.239.189.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-19 15:15:31 6672 [Warning] IP address '35.189.239.66' has been resolved to the host name '66.239.189.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-19 22:48:48 4016 [Warning] Host name 'WINZSRV37780' could not be resolved: No such host is known. 
+2021-02-19 23:10:58 4292 [Warning] IP address '46.101.158.244' could not be resolved: No such host is known. 
+2021-02-19 23:28:09 4016 [Warning] IP address '14.105.94.44' could not be resolved: No such host is known. 
+2021-02-19 23:36:01 4684 [Warning] IP address '61.147.125.142' could not be resolved: No such host is known. 
+2021-02-19 23:50:51 4292 [Warning] Host name 'zg-1218a-194.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-20  9:54:39 7404 [Warning] IP address '170.130.187.30' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-20 14:06:22 7420 [Warning] IP address '27.115.124.100' could not be resolved: No such host is known. 
+2021-02-20 14:06:23 4356 [Warning] IP address '27.115.124.9' could not be resolved: No such host is known. 
+2021-02-20 14:06:27 7420 [Warning] IP address '27.115.124.37' could not be resolved: No such host is known. 
+2021-02-21  3:16:37 7800 [Warning] Host name 'zg-1218c-60.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-21  7:15:24 2496 [Warning] Host name '14-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-21  8:25:06 5100 [Warning] Host name 'kraken-2-0-3306-20000-tor1-0.0.0.0-0' could not be resolved: No such host is known. 
+2021-02-21 12:00:51 5748 [Warning] Host name 'zg-1218c-241.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-21 22:15:21 2140 [Warning] IP address '35.187.190.226' has been resolved to the host name '226.190.187.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-21 22:15:21 2140 [Warning] IP address '35.187.190.226' has been resolved to the host name '226.190.187.35.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-02-21 23:22:04 2140 [Warning] IP address '172.104.145.182' has been resolved to the host name '172.104.145.182.li.binaryedge.ninja', which resembles IPv4-address itself.
+2021-02-21 23:47:02 2140 [Warning] IP address '146.56.207.177' could not be resolved: No such host is known. 
+2021-02-22  5:38:59 7336 [Warning] IP address '47.111.94.178' could not be resolved: No such host is known. 
+2021-02-22  8:42:43 7548 [Warning] IP address '139.59.245.17' could not be resolved: No such host is known. 
+2021-02-22  9:00:23 3872 [Warning] Hostname 'scanner.openportstats.com' does not resolve to '94.102.57.240'.
+2021-02-22  9:00:23 3872 [Note] Hostname 'scanner.openportstats.com' has the following IP addresses:
+2021-02-22  9:00:23 3872 [Note]  - 51.159.21.96
+2021-02-22  9:07:35 8076 [Warning] Host name '34-128.206.104.serverhubrdns.in-addr.arpa' could not be resolved: No such host is known. 
+2021-02-22 14:52:45 4292 [Warning] IP address '185.176.222.74' has been resolved to the host name '215522.2cloud.eu', which resembles IPv4-address itself.
+2021-02-22 15:50:37 7584 [Warning] Host name 'zg-1218c-213.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-22 20:36:24 4340 [Warning] IP address '47.97.191.159' could not be resolved: No such host is known. 
+2021-02-22 21:02:19 4340 [Warning] IP address '120.27.238.42' could not be resolved: No such host is known. 
+2021-02-22 21:47:37 6592 [Warning] IP address '121.196.149.199' could not be resolved: No such host is known. 
+2021-02-22 21:56:41 4340 [Warning] IP address '185.176.222.74' has been resolved to the host name '215522.2cloud.eu', which resembles IPv4-address itself.
+2021-02-22 22:10:03 7524 [Warning] Host name 'zg-1218b-9.stretchoid.com' could not be resolved: No such host is known. 
+2021-02-23  4:04:06 8788 [Warning] IP address '185.176.222.74' has been resolved to the host name '215522.2cloud.eu', which resembles IPv4-address itself.
+2021-02-23  6:39:22 6360 [Warning] IP address '8.140.111.57' could not be resolved: No such host is known. 
+2021-02-23  7:15:10 7808 [Warning] IP address '170.130.187.30' could not be resolved: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server. 
+2021-02-23 17:43:03 6216 [Warning] IP address '61.160.196.102' could not be resolved: No such host is known. 
+2021-02-23 23:55:00 1328 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-02-23 23:55:00 1328 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-03-19 08:16:12 b3c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-03-19  8:16:12 2876 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-03-19  8:16:12 2876 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-03-19  8:16:12 2876 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-03-19  8:16:12 2876 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-03-19  8:16:12 2876 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-03-19  8:16:12 2876 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-03-19  8:16:12 2876 [Note] InnoDB: Using generic crc32 instructions
+2021-03-19  8:16:12 2876 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-03-19  8:16:12 2876 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-19  8:16:12 2876 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-03-19  8:16:12 2876 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1301069227
+2021-03-19  8:16:12 2876 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-03-19  8:16:13 2876 [Note] InnoDB: Starting final batch to recover 5 pages from redo log
+2021-03-19  8:16:13 2876 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-03-19  8:16:13 2876 [Note] InnoDB: Waiting for purge to start
+2021-03-19  8:16:13 2876 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1301075335
+2021-03-19  8:16:14 4316 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-03-19  8:16:14 2876 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-19  8:16:14 2876 [Note] Server socket created on IP: '::'.
+2021-03-19  8:16:14 2876 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-06-18 10:02:03 1240 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-06-18 10:02:03 4672 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-06-18 10:02:03 4672 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-06-18 10:02:03 4672 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-06-18 10:02:03 4672 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-06-18 10:02:03 4672 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-06-18 10:02:03 4672 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-06-18 10:02:03 4672 [Note] InnoDB: Using generic crc32 instructions
+2021-06-18 10:02:03 4672 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-06-18 10:02:03 4672 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-18 10:02:03 4672 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-06-18 10:02:03 4672 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1301077351 in the ib_logfiles!
+2021-06-18 10:02:03 4672 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-06-18 10:02:03 4672 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-06-18 10:02:03 4672 [Note] InnoDB: Waiting for purge to start
+2021-06-18 10:02:03 4672 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1301077351
+2021-06-18 10:02:04 5028 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-06-18 10:02:04 4672 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-18 10:02:04 4672 [Note] Server socket created on IP: '::'.
+2021-06-18 10:02:04 4672 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-08  1:16:25 4032 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-08  1:16:25 4032 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-08  1:16:25 4032 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-08  1:16:25 4032 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-11 12:49:09 4004 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-11 12:49:09 4004 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-19 01:29:55 818 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-19  1:29:55 2072 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-19  1:29:55 2072 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-19  1:29:55 2072 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-19  1:29:55 2072 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-19  1:29:55 2072 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-19  1:29:55 2072 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-19  1:29:55 2072 [Note] InnoDB: Using generic crc32 instructions
+2021-07-19  1:29:55 2072 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-19  1:29:55 2072 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-19  1:29:55 2072 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-19  1:29:55 2072 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1348912839 in the ib_logfiles!
+2021-07-19  1:29:56 2072 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-19  1:29:57 2072 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-19  1:29:57 2072 [Note] InnoDB: Waiting for purge to start
+2021-07-19  1:29:57 2072 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1348912839
+2021-07-19  1:29:57 1448 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-19  1:29:57 2072 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-19  1:29:57 2072 [Note] Server socket created on IP: '::'.
+2021-07-19  1:29:57 2072 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-19 01:59:54 cc0 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-19  1:59:54 3264 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-19  1:59:54 3264 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-19  1:59:54 3264 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-19  1:59:54 3264 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-19  1:59:54 3264 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-19  1:59:54 3264 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-19  1:59:54 3264 [Note] InnoDB: Using generic crc32 instructions
+2021-07-19  1:59:54 3264 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-19  1:59:54 3264 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-19  1:59:54 3264 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-19  1:59:54 3264 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1348912849 in the ib_logfiles!
+2021-07-19  1:59:54 3264 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-19  1:59:56 3264 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-19  1:59:56 3264 [Note] InnoDB: Waiting for purge to start
+2021-07-19  1:59:56 3264 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1348912849
+2021-07-19  1:59:56 3264 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-19  1:59:56 3264 [Note] Server socket created on IP: '::'.
+2021-07-19  1:59:56 4236 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-19  1:59:56 3264 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-19  7:09:39 3384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-19  7:09:39 3384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-19  7:10:39 3384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-19  7:10:39 3384 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-18 21:28:19 b64 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-18 21:28:19 2916 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-18 21:28:19 2916 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-18 21:28:19 2916 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-18 21:28:19 2916 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-18 21:28:19 2916 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-18 21:28:19 2916 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-18 21:28:19 2916 [Note] InnoDB: Using generic crc32 instructions
+2021-07-18 21:28:19 2916 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-18 21:28:19 2916 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-18 21:28:19 2916 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-18 21:28:19 2916 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1348945403 in the ib_logfiles!
+2021-07-18 21:28:19 2916 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-18 21:28:19 2916 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-18 21:28:19 2916 [Note] InnoDB: Waiting for purge to start
+2021-07-18 21:28:19 2916 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1348945403
+2021-07-18 21:28:19 3048 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-18 21:28:19 2916 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-18 21:28:19 2916 [Note] Server socket created on IP: '::'.
+2021-07-18 21:28:19 2916 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-19  0:22:21 1104 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-19  0:22:21 1104 [Warning] IP address '34.79.68.246' has been resolved to the host name '246.68.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-19  1:34:42 4036 [Warning] IP address '141.101.196.233' could not be resolved: No such host is known. 
+2021-07-19 10:38:22 1460 [Warning] IP address '34.77.162.23' has been resolved to the host name '23.162.77.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-19 15:26:11 4604 [Warning] IP address '23.129.64.162' could not be resolved: No such host is known. 
+2021-07-19 20:44:00 3592 [Warning] Host name 'zg-0706a-59.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-20  0:37:16 3592 [Warning] IP address '34.79.68.246' has been resolved to the host name '246.68.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-20  0:37:16 3592 [Warning] IP address '34.79.68.246' has been resolved to the host name '246.68.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-20  1:33:15 3592 [Warning] Host name 'zg-0706a-355.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-20 07:02:45 76c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-20  7:02:45 1900 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-20  7:02:45 1900 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-20  7:02:45 1900 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-20  7:02:45 1900 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-20  7:02:45 1900 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-20  7:02:45 1900 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-20  7:02:45 1900 [Note] InnoDB: Using generic crc32 instructions
+2021-07-20  7:02:45 1900 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-20  7:02:45 1900 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-20  7:02:45 1900 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-20  7:02:45 1900 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1364309405 in the ib_logfiles!
+2021-07-20  7:02:45 1900 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-20  7:02:47 1900 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-20  7:02:47 1900 [Note] InnoDB: Waiting for purge to start
+2021-07-20  7:02:47 1900 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1364309405
+2021-07-20  7:02:47 5084 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-20  7:02:47 1900 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-20  7:02:47 1900 [Note] Server socket created on IP: '::'.
+2021-07-20  7:02:47 1900 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-20 11:27:23 4376 [Warning] IP address '144.86.173.30' could not be resolved: No such host is known. 
+2021-07-20 12:33:11 2800 [Warning] IP address '141.101.196.233' could not be resolved: No such host is known. 
+2021-07-20 19:26:34 5128 [Warning] IP address '109.248.6.73' could not be resolved: No such host is known. 
+2021-07-20 21:06:21 2720 [Warning] Host name 'zg-0706a-202.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-21  0:20:21 4860 [Warning] IP address '34.79.68.246' has been resolved to the host name '246.68.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-21  0:20:21 4860 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-21  1:36:00 6248 [Warning] Host name 'zg-0706b-108.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-21 12:12:17 7160 [Warning] IP address '144.86.173.18' could not be resolved: No such host is known. 
+2021-07-21 14:19:25 7160 [Warning] IP address '165.22.72.252' could not be resolved: No such host is known. 
+2021-07-21 17:48:29 4292 [Warning] IP address '159.203.31.248' could not be resolved: No such host is known. 
+2021-07-21 20:37:38 4292 [Warning] IP address '185.167.97.191' could not be resolved: No such host is known. 
+2021-07-21 23:11:14 7160 [Warning] Host name 'zg-0706a-146.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-22  0:34:50 7160 [Warning] IP address '103.206.21.89' could not be resolved: No such host is known. 
+2021-07-22  0:49:47 4088 [Warning] Host name 'st56.regstart.online' could not be resolved: No such host is known. 
+2021-07-22  0:53:42 516 [Warning] IP address '109.234.153.132' could not be resolved: No such host is known. 
+2021-07-22  0:53:47 4088 [Warning] IP address '109.234.153.133' could not be resolved: No such host is known. 
+2021-07-22  0:53:52 4088 [Warning] IP address '109.234.153.130' could not be resolved: No such host is known. 
+2021-07-22  1:54:54 4088 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-22  1:54:54 4088 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-22  4:26:18 4720 [Warning] Host name 'zg-0706a-45.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-22  8:03:07 1380 [Warning] IP address '144.86.173.65' could not be resolved: No such host is known. 
+2021-07-22 20:45:29 5840 [Warning] IP address '185.220.101.209' could not be resolved: No such host is known. 
+2021-07-22 20:45:34 3512 [Warning] IP address '185.220.101.22' could not be resolved: No such host is known. 
+2021-07-23  1:51:35 5444 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-23  1:51:35 5444 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-23  8:24:14 948 [Warning] IP address '144.86.173.77' could not be resolved: No such host is known. 
+2021-07-23 10:07:28 1680 [Warning] Host name 'zg-0706b-156.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-23 12:54:31 4844 [Warning] IP address '85.119.151.252' could not be resolved: No such host is known. 
+2021-07-23 12:54:36 4844 [Warning] IP address '85.119.151.251' could not be resolved: No such host is known. 
+2021-07-23 12:54:41 4844 [Warning] IP address '85.119.151.253' could not be resolved: No such host is known. 
+2021-07-23 12:54:46 4844 [Warning] IP address '85.119.151.250' could not be resolved: No such host is known. 
+2021-07-23 14:19:06 5524 [Warning] Host name 'zg-0706b-82.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-23 15:19:38 4412 [Warning] Host name 'zg-0706a-298.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-24  1:49:17 5308 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-24  1:49:17 4888 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-24  5:21:34 3096 [Warning] IP address '5.188.206.6' could not be resolved: No such host is known. 
+2021-07-24  5:21:37 3096 [Warning] Host name 'WIN-HEBFOH0IOA5' could not be resolved: No such host is known. 
+2021-07-24  5:21:42 3096 [Warning] IP address '5.188.206.3' could not be resolved: No such host is known. 
+2021-07-24  5:21:46 3988 [Warning] IP address '5.188.206.4' could not be resolved: No such host is known. 
+2021-07-24  5:21:51 3988 [Warning] IP address '5.188.206.5' could not be resolved: No such host is known. 
+2021-07-24  9:58:50 1184 [Warning] IP address '144.86.173.83' could not be resolved: No such host is known. 
+2021-07-24 10:38:31 7260 [Warning] Host name 'zg-0706a-26.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-24 16:52:15 3708 [Warning] Host name 'zg-0706b-288.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-24 18:17:50 3708 [Warning] Host name 'zg-0706b-279.stretchoid.com' could not be resolved: No such host is known. 
+2021-07-25  1:53:43 2892 [Warning] IP address '34.79.68.246' has been resolved to the host name '246.68.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-25  1:53:43 2892 [Warning] IP address '34.79.107.251' has been resolved to the host name '251.107.79.34.bc.googleusercontent.com', which resembles IPv4-address itself.
+2021-07-25  2:10:24 7812 [Warning] IP address '5.178.86.76' could not be resolved: No such host is known. 
+2021-07-25  2:10:29 7812 [Warning] IP address '5.178.86.74' could not be resolved: No such host is known. 
+2021-07-25  2:10:39 7204 [Warning] IP address '5.178.86.78' could not be resolved: No such host is known. 
+2021-07-25 02:52:59 1b34 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-25  2:52:59 6964 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-25  2:53:00 6964 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-25  2:53:00 6964 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-25  2:53:00 6964 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-25  2:53:00 6964 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-25  2:53:00 6964 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-25  2:53:00 6964 [Note] InnoDB: Using generic crc32 instructions
+2021-07-25  2:53:00 6964 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-25  2:53:00 6964 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-25  2:53:00 6964 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-25  2:53:00 6964 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1726106973 in the ib_logfiles!
+2021-07-25  2:53:00 6964 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-25  2:53:00 6964 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-25  2:53:00 6964 [Note] InnoDB: Waiting for purge to start
+2021-07-25  2:53:00 6964 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1726106973
+2021-07-25  2:53:00 7888 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-25  2:53:00 6964 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-25  2:53:00 6964 [Note] Server socket created on IP: '::'.
+2021-07-25  2:53:00 6964 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-07-25  2:57:36 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:36 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:57:37 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 6888 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2021-07-25  2:58:04 5616 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2021-07-25 03:08:02 1b58 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2021-07-25  3:08:02 7000 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2021-07-25  3:08:02 7000 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-07-25  3:08:02 7000 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-07-25  3:08:02 7000 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2021-07-25  3:08:02 7000 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2021-07-25  3:08:02 7000 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-07-25  3:08:02 7000 [Note] InnoDB: Using generic crc32 instructions
+2021-07-25  3:08:02 7000 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2021-07-25  3:08:02 7000 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-25  3:08:02 7000 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-25  3:08:02 7000 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1726641586
+2021-07-25  3:08:02 7000 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-07-25  3:08:02 7000 [Note] InnoDB: Starting final batch to recover 1 pages from redo log
+2021-07-25  3:08:03 7000 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-07-25  3:08:03 7000 [Note] InnoDB: Waiting for purge to start
+2021-07-25  3:08:03 7000 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1726642419
+2021-07-25  3:08:03 7948 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-07-25  3:08:03 7000 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-25  3:08:03 7000 [Note] Server socket created on IP: '::'.
+2021-07-25  3:08:03 7000 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-01-24 14:29:09 62e8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2022-01-24 14:29:09 25320 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2022-01-24 14:29:09 25320 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2022-01-24 14:29:09 25320 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-01-24 14:29:09 25320 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-24 14:29:09 25320 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-01-24 14:29:09 25320 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-01-24 14:29:09 25320 [Note] InnoDB: Using generic crc32 instructions
+2022-01-24 14:29:09 25320 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2022-01-24 14:29:09 25320 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-24 14:29:09 25320 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-24 14:29:09 25320 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1726654359 in the ib_logfiles!
+2022-01-24 14:29:09 25320 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2022-01-24 14:29:10 25320 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-01-24 14:29:10 25320 [Note] InnoDB: Waiting for purge to start
+2022-01-24 14:29:10 25320 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1726654359
+2022-01-24 14:29:10 29104 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2022-01-24 14:29:10 25320 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-24 14:29:10 25320 [Note] Server socket created on IP: '::'.
+2022-01-24 14:29:10 25320 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:58 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:30:59 26500 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2022-01-24 14:52:33 6cec InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2022-01-24 14:52:33 27884 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2022-01-24 14:52:33 27884 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2022-01-24 14:52:33 27884 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-01-24 14:52:33 27884 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-24 14:52:33 27884 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-01-24 14:52:33 27884 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-01-24 14:52:33 27884 [Note] InnoDB: Using generic crc32 instructions
+2022-01-24 14:52:33 27884 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2022-01-24 14:52:33 27884 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-24 14:52:33 27884 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-24 14:52:33 27884 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1726930679 in the ib_logfiles!
+2022-01-24 14:52:33 27884 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2022-01-24 14:52:33 27884 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-01-24 14:52:33 27884 [Note] InnoDB: Waiting for purge to start
+2022-01-24 14:52:33 27884 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1726930679
+2022-01-24 14:52:33 20472 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2022-01-24 14:52:33 27884 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-24 14:52:33 27884 [Note] Server socket created on IP: '::'.
+2022-01-24 14:52:34 27884 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-01-24 14:55:03 7114 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2022-01-24 14:55:03 28948 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2022-01-24 14:55:03 28948 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2022-01-24 14:55:03 28948 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-01-24 14:55:03 28948 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-24 14:55:03 28948 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-01-24 14:55:03 28948 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-01-24 14:55:03 28948 [Note] InnoDB: Using generic crc32 instructions
+2022-01-24 14:55:03 28948 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2022-01-24 14:55:03 28948 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-24 14:55:03 28948 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-24 14:55:03 28948 [Note] InnoDB: The log sequence number 355121301 in ibdata file do not match the log sequence number 1726930689 in the ib_logfiles!
+2022-01-24 14:55:03 28948 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2022-01-24 14:55:04 28948 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-01-24 14:55:04 28948 [Note] InnoDB: Waiting for purge to start
+2022-01-24 14:55:04 28948 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.38-83.0 started; log sequence number 1726930689
+2022-01-24 14:55:04 22760 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2022-01-24 14:55:04 28948 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-24 14:55:04 28948 [Note] Server socket created on IP: '::'.
+2022-01-24 14:55:04 28948 [Note] c:\wa-gw\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution

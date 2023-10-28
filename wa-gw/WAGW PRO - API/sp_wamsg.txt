@@ -1,0 +1,49 @@
+CREATE PROCEDURE [dbo].[sp_wamsg](@wa varchar(20) , @msg varchar(3000))
+AS
+BEGIN
+    Declare @Object as Int;
+    Declare @ResponseText  as Varchar(8000);
+	Declare @cmd as Varchar(8000);
+
+	set @cmd = 'https://wagwpro.com/api/send.php?wa=' + @wa + '&msg=' + @msg 
+
+    Exec sp_OACreate 'MSXML2.XMLHTTP', @Object OUT;
+    Exec sp_OAMethod @Object, 'open', NULL, 'get', @cmd ,'false'
+    Exec sp_OAMethod @Object, 'send'
+    Exec sp_OAMethod @Object, 'responseText', @ResponseText OUTPUT
+    Select @ResponseText
+    Exec sp_OADestroy @Object
+END ;
+GO
+
+
+ALTER PROCEDURE [dbo].[sp_wamsg2](@wa varchar(200) , @msg varchar(3000), @img varchar(300), @file varchar(300))
+AS
+BEGIN
+    Declare @Object as Int;
+    Declare @ResponseText  as Varchar(8000);
+	Declare @cmd as Varchar(8000);
+
+	set @cmd = 'https://wagwpro.com/api/send2.php?wa=' + @wa + '&msg=' + @msg  + '&img=' + @img + '&file=' + @file 
+
+    Exec sp_OACreate 'MSXML2.XMLHTTP', @Object OUT;
+    Exec sp_OAMethod @Object, 'open', NULL, 'get', @cmd ,'false'
+    Exec sp_OAMethod @Object, 'send'
+    Exec sp_OAMethod @Object, 'responseText', @ResponseText OUTPUT
+    Select @ResponseText
+    Exec sp_OADestroy @Object
+END ;
+GO
+
+
+sp_configure 'show advanced options', 1 
+GO 
+RECONFIGURE; 
+GO 
+sp_configure 'Ole Automation Procedures', 1 
+GO 
+RECONFIGURE; 
+GO 
+sp_configure 'show advanced options', 1 
+GO 
+RECONFIGURE;
